@@ -3,32 +3,70 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+a {
+    text-decoration: none;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #fafafa;
 }
 
 .left-col {
     float: left;
     margin-top: 80px;
-    border: 2px solid green;
+}
+
+.mobile-img {
+    position: absolute;
+    margin: 5px 250px;
+
 }
 
 .right-col {
-    margin-top: 50px;
     float: right;
-    border: 2px solid red;  
 }
 
-.right-col .sign-up-cards {
-    margin: 50px;
+.right-col .sign-up-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 45px 270px 0 0;
     height: 480px;
-    width: 350px;
+    width: 300px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+}
+
+.sign-up-card h3 {
+    font-size: 17px;
+    text-align: center;
+    color: #999;
 }
 
 .brand {
-    margin-left: 80px;
-    height: 60px;
+    margin: 5px 0 -15px 50px;
+    height: 50px;
     width: 200px;
 }
+
+.right-col .log-in-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px 290px 0 0;
+    height: 30px;
+    width: 300px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2);
+}
+
+.log-in-link p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
